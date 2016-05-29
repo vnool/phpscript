@@ -1,6 +1,7 @@
 # phpscript
 
-php `activescript` in php group has not update since 2004.
+php `activescript` in php group has not been updated since 2004.
+
 so copy it to here. and add fix some bugs.
 ## support PHP 5.2.6
 other upgrade version not tested
