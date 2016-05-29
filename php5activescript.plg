@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: php5activescript - Win32 Release_TS--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\28848500\AppData\Local\Temp\RSP543C.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "...\..\include" /I "..\..\win32" /I "..\..\Zend" /I "..\.." /I "..\..\main" /I "..\..\TSRM" /D "NDEBUG" /D ZEND_DEBUG=0 /D "_WINDOWS" /D "_USRDLL" /D "PHP5ISAPI_EXPORTS" /D "MSVC5" /D "ZTS" /D "ZEND_WIN32" /D "PHP_WIN32" /D "WIN32" /D "_MBCS" /D ACTIVEPHP_OBJECT_SAFETY=1 /FR"Release_TS/" /Fp"Release_TS/php5activescript.pch" /YX /Fo"Release_TS/" /Fd"Release_TS/" /FD /c 
+"C:\Users\28848500\DISK\project2013\PDA-last-fromPC\PHPscript\classfactory.cpp"
+"C:\Users\28848500\DISK\project2013\PDA-last-fromPC\PHPscript\marshal.cpp"
+"C:\Users\28848500\DISK\project2013\PDA-last-fromPC\PHPscript\php5activescript.c"
+"C:\Users\28848500\DISK\project2013\PDA-last-fromPC\PHPscript\scriptengine.cpp"
+]
+Creating command line "cl.exe @C:\Users\28848500\AppData\Local\Temp\RSP543C.tmp" 
+Creating temporary file "C:\Users\28848500\AppData\Local\Temp\RSP543D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib wsock32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib php5ts.lib /nologo /version:4.0 /dll /incremental:no /pdb:"Release_TS/php5activescript.pdb" /machine:I386 /def:".\php5activescript.def" /out:"Release_TS/php5activescript.dll" /implib:"Release_TS/php5activescript.lib" /libpath:"..\..\Release_TS" 
+".\Release_TS\classfactory.obj"
+".\Release_TS\marshal.obj"
+".\Release_TS\php5activescript.obj"
+".\Release_TS\scriptengine.obj"
+]
+Creating command line "link.exe @C:\Users\28848500\AppData\Local\Temp\RSP543D.tmp"
+<h3>Output Window</h3>
+Compiling...
+classfactory.cpp
+C:\Users\28848500\DISK\project2013\PDA-last-fromPC\PHPscript\php5as_scriptengine.h(24) : fatal error C1083: Cannot open include file: 'zend.h': No such file or directory
+marshal.cpp
+C:\Users\28848500\DISK\project2013\PDA-last-fromPC\PHPscript\php5as_scriptengine.h(24) : fatal error C1083: Cannot open include file: 'zend.h': No such file or directory
+php5activescript.c
+C:\Users\28848500\DISK\project2013\PDA-last-fromPC\PHPscript\php5activescript.c(20) : fatal error C1083: Cannot open include file: 'php.h': No such file or directory
+scriptengine.cpp
+C:\Users\28848500\DISK\project2013\PDA-last-fromPC\PHPscript\scriptengine.cpp(35) : fatal error C1083: Cannot open include file: 'php.h': No such file or directory
+执行 cl.exe 时出错.
+Creating command line "bscmake.exe /nologo /o"Release_TS/php5activescript.bsc"  ".\Release_TS\classfactory.sbr" ".\Release_TS\marshal.sbr" ".\Release_TS\php5activescript.sbr" ".\Release_TS\scriptengine.sbr""
+Creating browse info file...
+BSCMAKE: error BK1506 : cannot open file '.\Release_TS\classfactory.sbr': No such file or directory
+执行 bscmake.exe 时出错.
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+php5activescript.dll - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

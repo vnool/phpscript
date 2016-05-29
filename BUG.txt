@@ -1,0 +1,19 @@
+about xDebug
+
+
+
+http://bugs.xdebug.org/view.php?id=753
+
+
+I don't know how i fixed the bug,
+Xdebug crash on the PHPscript last branche 5.0RC4 or main trunk,
+http://svn.php.net/viewvc/pecl/activescript/trunk/ [^]
+
+but not crash on PHPscript branche 5.0 http://svn.php.net/viewvc/pecl/activescript/branches/PHP_5_0/ [^]
+(many bugs, such as failing import object)
+
+I merge the code about opcode compile and exectue, then bug fixed
+---another important issue,
+ Exactly?Xdebug does not work on PHPscript any, even the crash bug above has been fixed.
+  PHPscript compile the code by 'zend_string_compile' function, but Xdebug only replace the 'zend_file_compile' function. So xdebug not rebuild the OPcode.
+  Little changes on the phpscript frag compile function(xdebug or phpscript), will fix this bug.
