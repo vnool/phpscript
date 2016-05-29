@@ -63,3 +63,5 @@ to load extensions etc.
 
     Set the language property to 'PHPScript'
   
+### official 
+The offical: http://pecl.php.net/package/PHPScript
