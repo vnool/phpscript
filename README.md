@@ -7,7 +7,8 @@ other upgrade version not tested
 
 ## ActiveScript SAPI for PHP 
 Allows you to use PHP as an ActiveScript engine from within other applications
-Description
+Description.
+
 This ActiveScript SAPI allows you to `embed PHP into your Windows applications` via the MS Scripting control, Windows Scripting Host or any other ActiveScript aware host application
 
 Once registered on your system (using regsvr32), you will be able to use
