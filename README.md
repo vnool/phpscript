@@ -1,14 +1,15 @@
 # phpscript
 
-php activescript in php group has not update since 2004.
-so copy it to here. and add some update.
+php `activescript` in php group has not update since 2004.
+so copy it to here. and add fix some bugs.
 ## support PHP 5.2.6
 other upgrade version not tested
 
+## ActiveScript SAPI for PHP 
 Allows you to use PHP as an ActiveScript engine from within other applications
-Description	this ActiveScript SAPI allows you to embed PHP into your Windows applications via the MS Scripting control, Windows Scripting Host or any other ActiveScript aware host application
+Description
+This ActiveScript SAPI allows you to `embed PHP into your Windows applications` via the MS Scripting control, Windows Scripting Host or any other ActiveScript aware host application
 
-## ActiveScript SAPI for PHP
 Once registered on your system (using regsvr32), you will be able to use
 PHP script in any ActiveScript compliant host.  The list includes:
 
